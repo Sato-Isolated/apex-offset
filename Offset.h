@@ -26,7 +26,7 @@
 #define OFFSET_ORIGIN				0x14C //m_vecAbsOrigin
 #define OFFSET_BONES				0xF38 //m_bConstrainBetweenEndpoints
 #define OFFSET_AIMPUNCH				0x2430 //m_vecPunchWeapon_Angle
-#define OFFSET_CAMERAPOS			0x1ED0 //CameraPosition and lea rax, aCameraposition ; "CameraPosition" mov [rbx+8], rax // lea rax, sub_7FF65FB916F0 and something like that dword_7FF66A8DE590 = *(_DWORD *)(a1 + 0x1ED0); //it was a for an old update it's just a kind of memo //maybe wrong
+#define OFFSET_CAMERAPOS			0x1ED0 //CameraPosition and lea rax, aCameraposition ; "CameraPosition" mov [rbx+8], rax // lea rax, sub_7FF65FB916F0 and something like that dword_7FF66A8DE590 = *(_DWORD *)(a1 + 0x1ED0); //it was for an old update it's just a kind of memo //maybe wrong
 #define OFFSET_VIEWANGLES			0x2518 //m_ammoPoolCapacity / x / first .data/ dword - 14 //maybe wrong
 #define OFFSET_BREATH_ANGLES		(OFFSET_VIEWANGLES - 0x10)
 
