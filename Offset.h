@@ -19,8 +19,8 @@
 #define OFFSET_LIFE_STATE			0x0798 //m_lifeState, >0 = dead
 #define OFFSET_BLEED_OUT_STATE		0x26d8 //m_bleedoutState, >0 = knocked
 
-#define OFFSET_BULLET_SPEED			0x1ED0 //idk
-#define OFFSET_BULLET_GRAVITY		0x1ED8 //idk
+#define OFFSET_BULLET_SPEED			0x1ED0 //m_flProjectileSpeed
+#define OFFSET_BULLET_GRAVITY		0x1ED8 //m_flProjectileScale
 
 #define OFFSET_CURRENT_WEAPON		0x1A6C //m_latestPrimaryWeapons
 #define OFFSET_ORIGIN				0x14C //m_vecAbsOrigin
